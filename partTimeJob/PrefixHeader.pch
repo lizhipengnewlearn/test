@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  partTimeJob
+//
+//  Created by mac on 17/8/8.
+//  Copyright © 2017年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <AVOSCloud/AVOSCloud.h>
+#define COLOR(x,y,z) [UIColor colorWithRed:x/255.0f green:y/255.0f blue:z/255.0f alpha:1.0f]
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define BACKGROUNDCOLOR COLOR(254,253,240)
+#define LOGINSUCCESS @"loginSuccess"
+//#define BARTINCOLOR    COLOR(255, 224, 95)
+#define THEMEBLUECOLOR COLOR(11, 118, 255)
+#define THEMEBLACKCOLOR COLOR(51, 51, 51)
+#define LINECOLOR      COLOR(204, 204, 204)
+#define SUBTITLECOLOR      COLOR(153, 153, 153)
+
+#define  LocalVersion @"1.0"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
